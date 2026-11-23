@@ -55,7 +55,7 @@ Nén cả thư mục thành `K5-L2-DAY12-<HoVaTen>-<MSSV>-DMSOMS.zip` rồi nộ
 
 ## Thử nghiệm toolkit trên bản sao G06
 
-Task Day12-G06-prelabel (job 31) có 31 box và 22 tag frame_meta từ nguồn auto. Chưa có lượt duyệt của học viên. Kết quả này thuộc bản thử nghiệm riêng, ngoài bộ E1–E5 của job 30.
+Task Day12-G06-prelabel (job 31) có 31 box và 22 tag frame_meta từ nguồn auto. Đây là kết quả trước lượt duyệt học viên đã báo. Kết quả này thuộc bản thử nghiệm riêng, ngoài bộ E1–E5 của job 30.
 
 | Phạm vi | Lỗi | Cảnh báo |
 |---|---:|---:|
@@ -64,3 +64,15 @@ Task Day12-G06-prelabel (job 31) có 31 box và 22 tag frame_meta từ nguồn a
 | Toàn bộ 22 ảnh | 0 | 2 |
 
 S05_ir có hai box person cùng ghế rear_right. S07_rgb có hai box person cùng ghế rear_middle. Cần kiểm tra box trùng và vị trí ghế vì bước chuyển nhãn ước lượng ghế theo tâm box. Cần rà cả các cặp RGB/IR có số box khác nhau, các lớp cabin chuyên biệt và thuộc tính. Modality lấy theo tên ảnh, light đặt unknown và camera_blocked tạm đặt no cho cả 22 ảnh.
+
+### Sau lượt rà job 31
+
+Học viên cho biết đã duyệt qua một lượt. Khi đối chiếu tọa độ giữa hai phương thức của cùng cảnh, hai box lớn bao trọn box nhỏ trên cùng ghế. Box nhỏ khớp với box trong khung đối ứng. Đã bỏ box lớn trên S05_ir (0,353–379,638) và S07_rgb (311,164–628,638), giữ ghế rear_right và rear_middle tương ứng. Đây là quyết định dựa trên hình học của nhãn RGB/IR.
+
+Bản export sau sửa còn 29 box (26 person, 3 object). Cả 22 ảnh có đúng một frame_meta, gồm 8 rgb và 14 ir đúng với tên ảnh. Light là unknown và camera_blocked là no ở cả 22 ảnh. Lần kiểm này xác minh giá trị lưu trong XML; trạng thái che camera chưa được xác minh độc lập trên ảnh.
+
+| Phạm vi | Ảnh đủ frame_meta | Lỗi | Cảnh báo |
+|---|---:|---:|---:|
+| A · S01–S02 | 4/4 | 0 | 0 |
+| B · D01–D02 | 2/2 | 0 | 0 |
+| Toàn bộ job 31 | 22/22 | 0 | 0 |
