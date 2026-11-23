@@ -52,3 +52,15 @@ Nén cả thư mục thành `K5-L2-DAY12-<HoVaTen>-<MSSV>-DMSOMS.zip` rồi nộ
 | E5 | Bản nháp có 6 mục DMS và 6 mục OMS. Hai câu hỏi đang dùng khung giả định, cần học viên đối chiếu trong job G06. |
 
 Đã tạo task Day12-G06 (ID 30) trong project Day12 (ID 6) trên CVAT local v2.74.1. Đã kiểm đủ 8 cặp S01–S08 và 6 khung D01–D06. TEAM.md còn chờ tên bạn review. Phần tự rà soát 4 ảnh và đáp án exit ticket chờ học viên điền. Chưa đóng gói bộ nộp LMS.
+
+## Thử nghiệm toolkit trên bản sao G06
+
+Task Day12-G06-prelabel (job 31) có 31 box và 22 tag frame_meta từ nguồn auto. Chưa có lượt duyệt của học viên. Kết quả này thuộc bản thử nghiệm riêng, ngoài bộ E1–E5 của job 30.
+
+| Phạm vi | Lỗi | Cảnh báo |
+|---|---:|---:|
+| A · S01–S02 | 0 | 0 |
+| B · D01–D02 | 0 | 0 |
+| Toàn bộ 22 ảnh | 0 | 2 |
+
+S05_ir có hai box person cùng ghế rear_right. S07_rgb có hai box person cùng ghế rear_middle. Cần kiểm tra box trùng và vị trí ghế vì bước chuyển nhãn ước lượng ghế theo tâm box. Cần rà cả các cặp RGB/IR có số box khác nhau, các lớp cabin chuyên biệt và thuộc tính. Modality lấy theo tên ảnh, light đặt unknown và camera_blocked tạm đặt no cho cả 22 ảnh.
