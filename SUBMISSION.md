@@ -76,3 +76,5 @@ Bản export sau sửa còn 29 box (26 person, 3 object). Cả 22 ảnh có đú
 | A · S01–S02 | 4/4 | 0 | 0 |
 | B · D01–D02 | 2/2 | 0 | 0 |
 | Toàn bộ job 31 | 22/22 | 0 | 0 |
+
+Học viên đã xác nhận hoàn tất lượt duyệt job 31. Job đã chuyển sang completed trên CVAT local. Đã xuất bản G06-job31-reviewed.zip chỉ chứa annotations.xml và kiểm lại đủ 22 khung. Bước đối chiếu đang chờ bản export độc lập của bạn cùng mã G06.
