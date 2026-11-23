@@ -45,8 +45,8 @@ Nén cả thư mục thành `K5-L2-DAY12-<HoVaTen>-<MSSV>-DMSOMS.zip` rồi nộ
 
 | Bằng chứng | Tình trạng |
 |---|---|
-| E1 | Chưa có export CVAT của 22 ảnh. |
-| E2 | Chưa có export để kiểm checkpoint A, B và lần cuối. |
+| E1 | Đã xuất bản kiểm tra 22 ảnh chỉ chứa annotations.xml. Task chưa có nhãn, chưa có bản nộp cuối. |
+| E2 | Đã chạy thử trên cùng bản export trước khi gán nhãn. A (S01–S02): 4 lỗi / 4 ảnh. B (D01–D02): 2 lỗi / 2 ảnh. Toàn bộ: 22 lỗi / 22 ảnh. Mỗi ảnh thiếu tag frame_meta, cả ba lần có 0 cảnh báo. Cần chạy lại sau khi gán đủ đối tượng và tag. |
 | E3 | Chờ hai bản export cùng mã bộ ảnh và kết quả phân xử với bạn review. |
 | E4 | Nhật ký có tiêu đề cột. Cần ít nhất 4 quan sát thực tế, ghi đúng nguồn. |
 | E5 | Bản nháp có 6 mục DMS và 6 mục OMS. Hai câu hỏi đang dùng khung giả định, cần học viên đối chiếu trong job G06. |
