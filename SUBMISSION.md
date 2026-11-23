@@ -78,3 +78,11 @@ Bản export sau sửa còn 29 box (26 person, 3 object). Cả 22 ảnh có đú
 | Toàn bộ job 31 | 22/22 | 0 | 0 |
 
 Học viên đã xác nhận hoàn tất lượt duyệt job 31. Job đã chuyển sang completed trên CVAT local. Đã xuất bản G06-job31-reviewed.zip chỉ chứa annotations.xml và kiểm lại đủ 22 khung. Bước đối chiếu đang chờ bản export độc lập của bạn cùng mã G06.
+
+### Đối chiếu job 31 với một bản G06 công khai
+
+Đã chạy cabin_check diff với export_final_v2.zip của Lê Trần Phi Hùng. TEAM.md của repo xác nhận bộ G06. Hai export có 22 ảnh chung. Ở ngưỡng IoU 0,5, checker ghi 90 dòng vào disagreement_log.csv, gồm 68 dòng box, 16 dòng seatbelt và 6 dòng số lượng face13.
+
+Sáu dòng D01–D06 có nhận định sơ bộ theo GUIDE §4.6 dựa trên chiều rộng box mặt và số mốc trong XML. Còn 84 dòng chờ phân xử. Đây là đối chiếu từ repo công khai; việc ghép cặp chính thức và xác nhận trực tiếp với tác giả vẫn đang chờ.
+
+[Nguồn export tại commit đã đối chiếu](https://github.com/hung-1503/K5-L2-Day12-LeTranPhiHung-2A202603353-DMS-OMS-student/blob/712f74f2e4d85a309eee4c13431dac2576c8da46/export_final_v2.zip)
