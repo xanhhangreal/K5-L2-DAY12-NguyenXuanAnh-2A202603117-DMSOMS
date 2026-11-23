@@ -41,3 +41,14 @@ Nén cả thư mục thành `K5-L2-DAY12-<HoVaTen>-<MSSV>-DMSOMS.zip` rồi nộ
 3. Tên file đúng như trên (coach chấm bằng script).
 4. Không kèm `manifest.csv`, ảnh, hay thư mục `Gxx/`.
 5. `prompts.md` có mặt.
+## Đối chiếu ngày 23/11/2026
+
+| Bằng chứng | Tình trạng |
+|---|---|
+| E1 | Chưa có export CVAT của 22 ảnh. |
+| E2 | Chưa có export để kiểm checkpoint A, B và lần cuối. |
+| E3 | Chờ hai bản export cùng mã bộ ảnh và kết quả phân xử với bạn review. |
+| E4 | Nhật ký có tiêu đề cột. Cần ít nhất 4 quan sát thực tế, ghi đúng nguồn. |
+| E5 | Bản nháp có 6 mục DMS và 6 mục OMS. Hai câu hỏi đang dùng khung giả định, cần đối chiếu khi nhận bộ ảnh. |
+
+TEAM.md đang chờ mã bộ ảnh và tên bạn review. Phần tự rà soát 4 ảnh và đáp án exit ticket chờ học viên điền. Chưa đóng gói bộ nộp LMS.
