@@ -2,7 +2,7 @@
 
 Làm cá nhân, không mở slide, khoảng 10 phút. Ghi đáp án ngay dưới mỗi câu.
 
-**Họ tên:** Nguyễn Xuân Anh · **MSSV:** 2A202603117 · **Mã bộ ảnh:** chờ coach
+**Họ tên:** Nguyễn Xuân Anh · **MSSV:** 2A202603117 · **Mã bộ ảnh:** G06
 
 ---
 

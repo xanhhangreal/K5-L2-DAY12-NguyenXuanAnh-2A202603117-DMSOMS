@@ -1,6 +1,6 @@
 # TEAM — Ngày 12
 
-Mã bộ ảnh: **Chờ coach xác nhận** · Hình thức: cá nhân
+Mã bộ ảnh: **G06** · Hình thức: cá nhân
 
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với (peer diff) | Số dòng disagreement đã xử lý |
 |---|---|---|---|---|

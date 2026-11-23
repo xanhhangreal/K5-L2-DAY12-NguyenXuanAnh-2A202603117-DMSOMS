@@ -49,6 +49,6 @@ Nén cả thư mục thành `K5-L2-DAY12-<HoVaTen>-<MSSV>-DMSOMS.zip` rồi nộ
 | E2 | Chưa có export để kiểm checkpoint A, B và lần cuối. |
 | E3 | Chờ hai bản export cùng mã bộ ảnh và kết quả phân xử với bạn review. |
 | E4 | Nhật ký có tiêu đề cột. Cần ít nhất 4 quan sát thực tế, ghi đúng nguồn. |
-| E5 | Bản nháp có 6 mục DMS và 6 mục OMS. Hai câu hỏi đang dùng khung giả định, cần đối chiếu khi nhận bộ ảnh. |
+| E5 | Bản nháp có 6 mục DMS và 6 mục OMS. Hai câu hỏi đang dùng khung giả định, cần học viên đối chiếu trong job G06. |
 
-TEAM.md đang chờ mã bộ ảnh và tên bạn review. Phần tự rà soát 4 ảnh và đáp án exit ticket chờ học viên điền. Chưa đóng gói bộ nộp LMS.
+Đã tạo task Day12-G06 (ID 30) trong project Day12 (ID 6) trên CVAT local v2.74.1. Đã kiểm đủ 8 cặp S01–S08 và 6 khung D01–D06. TEAM.md còn chờ tên bạn review. Phần tự rà soát 4 ảnh và đáp án exit ticket chờ học viên điền. Chưa đóng gói bộ nộp LMS.

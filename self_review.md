@@ -1,4 +1,4 @@
-# Tự đánh giá — Nguyễn Xuân Anh · chờ mã bộ ảnh
+# Tự đánh giá — Nguyễn Xuân Anh · G06
 
 ## 1. Tự rà soát 4 cảnh
 
