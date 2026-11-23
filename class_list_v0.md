@@ -17,7 +17,7 @@
 |---|---|---|---|
 | person.seat | driver / front_passenger / rear_left / rear_middle / rear_right | Xác định ghế có người để nhắc kiểm tra đúng vị trí | Dựa vào hình người và vị trí ghế theo hệ tọa độ của xe. |
 | person.seatbelt | worn_correct / worn_incorrect / not_worn / unknown | Kiểm tra tình trạng dây theo từng người | Chỉ kết luận khi nhìn đủ đường đi của dây. |
-| child_seat.occupied | no / unknown | Phân biệt ghế trẻ em thấy rõ trống với ghế chưa xác định được | Vật che lòng ghế có thể làm mất căn cứ xác định. |
+| child_seat.occupied | no / yes / unknown | Phân biệt ghế trẻ em thấy rõ trống với ghế chưa xác định được | Vật che lòng ghế có thể làm mất căn cứ xác định. |
 | infant_seat.facing | rear / front | Ghi nhận hướng đặt nôi so với hướng xe chạy | Cần thấy đủ hình dáng và hướng của nôi. |
 | object.type | bag / box / cup / other | Phân biệt đồ đặt trên ghế với hành khách | Dựa vào đường viền và cấu trúc của vật. |
 | frame_meta.camera_blocked | yes / no | Nhận biết khung cần kiểm tra vì camera bị che | Xét toàn khung để phân biệt che camera với che riêng một ghế. |
